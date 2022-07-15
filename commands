@@ -1,0 +1,15 @@
+//Create App
+yarn create react-app adol-3d-model --template typescript
+
+//three
+yarn add three @react-three/fiber @react-three/drei
+
+//gltfjsx
+npx gltfjsx model.glb
+
+//git
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://githu
